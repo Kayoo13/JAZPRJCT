@@ -2,7 +2,7 @@
 <html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
   <meta charset="UTF-8">
-  <title>Title</title>
+  <title>Usuwanie</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="/style1.css">
 </head>
@@ -34,6 +34,8 @@
     </ul>
   </div>
 </nav>
+<center>
+  <h1>Usuwanie z DB</h1>
 <form action="#" th:action="@{/deleteDriver}" method="post">
   <input type="hidden" name="_method" value="delete" />
   <table>
@@ -46,6 +48,6 @@
     </tr>
   </table>
 </form>
-<a href="http://localhost:8081/drivers" class="btn">Go to Drivers Page</a>
+</center>
 </body>
 </html>
